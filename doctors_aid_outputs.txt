@@ -1,0 +1,48 @@
+Patient Hayriye is recorded.
+Patient Deniz is recorded.
+Patient Ateş is recorded.
+Patient Hayriye has a probability of 33.34% of having breast cancer.
+System suggests Ateş NOT to have the treatment.
+Patient Toprak is recorded.
+Patient Hypatia is recorded.
+System suggests Hypatia to have the treatment.
+Patient Pakiz is recorded.
+
+Patient        Diagnosis      Disease             Disease        Treatment           Treatment
+Name           Accuracy       Name                Incidence      Name                Risk 
+----------------------------------------------------------------------------------------------
+Hayriye        0.999          Breast Cancer       50/100000      Surgery             0.40
+
+Deniz          0.9999         Lung Cancer         40/100000      Radiotherapy        0.50
+
+Ateş          0.99           Thyroid Cancer      16/100000      Chemotherapy        0.02
+
+Toprak         0.98           Prostate Cancer     21/100000      Hormonotherapy      0.20
+
+Hypatia        0.9975         Stomach Cancer      15/100000      Immunotherapy       0.04
+
+Pakiz          0.9997         Colon Cancer        14/100000      Targeted Therapy    0.30
+
+Patient Ateş is removed.
+Probability for Ateş cannot be calculated due to absence.
+Recommendation for Su cannot be calculated due to absence.
+Patient Su is recorded.
+System suggests Su NOT to have the treatment.
+
+Patient        Diagnosis      Disease             Disease        Treatment           Treatment
+Name           Accuracy       Name                Incidence      Name                Risk 
+----------------------------------------------------------------------------------------------
+Hayriye        0.999          Breast Cancer       50/100000      Surgery             0.40
+
+Deniz          0.9999         Lung Cancer         40/100000      Radiotherapy        0.50
+
+Toprak         0.98           Prostate Cancer     21/100000      Hormonotherapy      0.20
+
+Hypatia        0.9975         Stomach Cancer      15/100000      Immunotherapy       0.04
+
+Pakiz          0.9997         Colon Cancer        14/100000      Targeted Therapy    0.30
+
+Su             0.98           Breast Cancer       50/100000      Chemotherapy        0.20
+
+Patient Deniz has a probability of 80.01% of having lung cancer.
+Patient Pakiz has a probability of 31.82% of having colon cancer.
